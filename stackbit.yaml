@@ -83,7 +83,8 @@ models:
     type: page
     label: Requirement
     folder: basics/requirements
-    match: '*'
+    match:
+      - '*'
     fields:
       - type: string
         name: title
@@ -158,7 +159,8 @@ models:
   page_3:
     type: page
     label: Page 3
-    match: '*'
+    match:
+      - '*'
     fields:
       - type: string
         name: title
